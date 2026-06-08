@@ -7,7 +7,9 @@ Point it at any CSV file and CSVInsight auto-generates: column type detection, d
 
 ## Quick Start
 ```bash
-pip install csvinsight
+git clone https://github.com/MrHassan2027/CSVInsight
+cd CSVInsight
+pip install -e .
 
 csvinsight sales_data.csv                   # generate HTML report
 csvinsight sales_data.csv --open            # generate + open in browser
